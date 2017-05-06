@@ -1,13 +1,18 @@
 body{
   font-family: Verdana;
-  background-color: #000;
-  align-items: center;
+  background-color: #000000;
+  color: #FFFFFF;
+  text-align: center;
+}
+.container{
+  width: 100%;
+  align: center;
 }
 
 h1 {
   font-weight: normal;
   font-size: 50px;
-  color: #fff;
+  color: #FFFFFF;
 }
 
 h2 {
@@ -18,16 +23,29 @@ h2 {
 p{
   font-size: 16px;
 }
+
 .lead{
   font-size: 21px;
   color: gray;
 }
+
 a{
   color: aquamarine;
 }
-.main .first .second .footer{
+
+.main{
   margin-top: 40px;
 }
+
+.first{
+  margin-top: 40px;
+}
+
+.second{
+  margin-top: 100px;
+}
+
 .footer{
   text-align: right;
+  color: gray;
 }
